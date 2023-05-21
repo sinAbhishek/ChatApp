@@ -1,0 +1,48 @@
+.img-search {
+  width: 3rem;
+  height: 3rem;
+  border-radius: 50%;
+}
+.img-modal {
+  width: 3rem;
+  height: 3rem;
+  border-radius: 50%;
+  margin: 0px auto;
+}
+.searchResult {
+  display: flex;
+  cursor: pointer;
+  margin-top: 2rem;
+  margin-left: 1rem;
+}
+
+.text-modal {
+  margin-top: 0px;
+}
+p {
+  font-family: "Asap Condensed", sans-serif;
+}
+.btn-modal {
+  width: 70%;
+  margin: 0px auto;
+  border-radius: 5px;
+  height: 2rem;
+  background-color: #49fc03;
+  cursor: pointer;
+}
+.btn-txt {
+  font-size: 1rem;
+  color: white;
+}
+.modalcontents {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+.addfrtext {
+  margin-left: 1rem;
+}
+.txt-search {
+  margin-left: 1rem;
+}

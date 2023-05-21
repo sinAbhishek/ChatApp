@@ -1,0 +1,73 @@
+.register-btn {
+  height: 2rem;
+  background-color: rgb(13, 224, 168);
+  color: white;
+  border: none;
+  border-radius: 0.2rem;
+}
+.login-btn {
+  margin-top: 1rem;
+  background-color: black;
+  color: aliceblue;
+}
+.register-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+}
+.register-form {
+  display: flex;
+  flex-direction: column;
+}
+.imglabel {
+  background-color: rgb(7, 170, 220);
+  color: rgb(255, 255, 255);
+  padding: 0.3rem;
+  margin: 1rem;
+  border-radius: 0.2rem;
+  font-family: "Ysabeau", sans-serif;
+  font-style: normal;
+  font-size: 1rem;
+}
+.imglabel:hover {
+  cursor: pointer;
+}
+.register-btn:hover {
+  cursor: pointer;
+}
+.register-input {
+  margin-bottom: 10px;
+  border-style: inherit;
+  border: 1px solid;
+  height: 3rem;
+  border-radius: 0.5rem;
+  padding: 0.5rem;
+  font-family: "Ysabeau", sans-serif;
+  font-size: 1rem;
+}
+form > label {
+  color: red;
+  font-size: 0.6rem;
+  font-family: "Play", sans-serif;
+  font-style: italic;
+  margin: 0 auto 0.5rem;
+}
+.log-h1 {
+  margin-bottom: 50px;
+  font-family: "Oswald", sans-serif;
+}
+.register-login {
+  font-size: 15px;
+  margin-bottom: 5px;
+}
+.reg-form {
+  display: flex;
+  flex-direction: column;
+}
+.upload-input {
+  width: 70%;
+  display: none;
+}

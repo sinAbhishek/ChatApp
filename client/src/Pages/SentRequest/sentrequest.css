@@ -1,0 +1,25 @@
+.img-pe {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-right: 20px;
+}
+.pe-wrapper {
+  display: flex;
+  width: 100%;
+  background-color: #474e59;
+  justify-content: space-between;
+  margin-bottom: 1rem;
+}
+.p1 {
+  height: 3px;
+  background-color: #474e59;
+  margin: 0px;
+}
+.pe-title {
+  margin-top: 50px;
+  margin-bottom: 0px;
+}
+.pe-userdet {
+  display: flex;
+}

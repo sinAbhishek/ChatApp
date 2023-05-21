@@ -1,0 +1,99 @@
+.messageBox {
+  background: #f3f3f3;
+
+  padding: 5px 20px;
+  color: white;
+  display: inline-block;
+  max-width: 80%;
+}
+.messageBox > p {
+  font-family: "Ysabeau", sans-serif;
+  font-weight: bold;
+}
+.messageText {
+  width: 100%;
+  letter-spacing: 0;
+
+  font-size: 1.1em;
+  word-wrap: break-word;
+}
+.time {
+  display: flex;
+  justify-content: flex-end;
+}
+.time > p {
+  font-size: 0.6rem;
+  font-style: italic;
+  margin: 0px;
+}
+.txtCon {
+  display: flex;
+  flex-direction: column;
+}
+.time2 {
+  display: flex;
+  justify-content: flex-end;
+}
+.txtCon > p {
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+.time2 > p {
+  font-size: 0.6rem;
+  font-style: italic;
+  color: black;
+  margin: 0px;
+}
+.messageText img {
+  vertical-align: middle;
+}
+
+.messageContainer {
+  display: flex;
+  justify-content: flex-end;
+
+  padding: 0 5%;
+  margin-top: 3px;
+}
+
+.sentText {
+  display: flex;
+  align-items: center;
+  font-family: Helvetica;
+  color: #828282;
+  letter-spacing: 0.3px;
+}
+
+.pl-10 {
+  padding-left: 10px;
+}
+
+.pr-10 {
+  padding-right: 10px;
+}
+
+.justifyStart {
+  justify-content: flex-start;
+}
+
+.justifyEnd {
+  justify-content: flex-end;
+}
+
+.colorWhite {
+  color: white;
+}
+
+.colorDark {
+  color: #353535;
+}
+
+.backgroundBlue {
+  background: #2979ff;
+  border-radius: 20px 5px 20px 20px;
+}
+
+.backgroundLight {
+  background: #f3f3f3;
+  border-radius: 5px 20px 20px 20px;
+}

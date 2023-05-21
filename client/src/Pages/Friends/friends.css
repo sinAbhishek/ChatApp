@@ -1,0 +1,61 @@
+.m1 {
+  margin-left: 10px;
+  display: flex;
+  align-items: center;
+}
+.img-m1 {
+  width: 3rem;
+  height: 3rem;
+  border-radius: 50%;
+  /* margin-right: 20px; */
+}
+.friend-name {
+  color: aliceblue;
+  margin-left: 20px;
+}
+.fr-title {
+  cursor: pointer;
+}
+.fr-title > h2 {
+  font-family: "Asap Condensed", sans-serif;
+}
+.fr-det {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.fr-det > button {
+  background-color: rgb(240, 34, 34);
+  border: none;
+  height: 2rem;
+  border-radius: 0.5rem;
+  color: white;
+}
+.fr-det > button:hover {
+  cursor: pointer;
+}
+.statusOn {
+  width: 10px;
+  height: 10px;
+  background-color: rgb(64, 251, 95);
+  border-style: none;
+}
+.statusOff {
+  width: 10px;
+  height: 10px;
+  background-color: rgba(117, 115, 115, 0.927);
+  border: 2px solid;
+  border-color: #3e3d3d;
+}
+.status {
+  position: absolute;
+  bottom: 5px;
+  right: 3px;
+  border-radius: 10px;
+  width: 13px;
+  height: 13px;
+}
+.c1 {
+  position: relative;
+}
