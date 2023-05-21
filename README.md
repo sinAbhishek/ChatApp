@@ -11,7 +11,7 @@ Backend server: Node JS,Express JS,Socket.io
 Frontend: React JS
 
 Database: Mongodb
-![Screenshot (1115)]()
+
 
 
 # Live  project
